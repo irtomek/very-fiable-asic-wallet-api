@@ -44,7 +44,9 @@ export class TransactionModule {
       transactionSignResult,
     );
 
-    return Buffer.from(safeResults.signedTransactionHex, "hex");
+    console.log(safeResults);
+    // return Buffer.from(safeResults.signedTransactionHex, "hex");
+    return Buffer.from("Hello, Kitty!");
   }
 
   /**
